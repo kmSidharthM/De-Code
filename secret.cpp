@@ -10,7 +10,7 @@ int main()
     cout<<"\n\n************************************DE-CODE************************************\n\n";
     while(flag==1)
     {
-    cout<<"WHAT TO DO:\n1->CODE\n2->DECODE\n";
+    cout<<"WHAT TO DO:\n1->CODE\n2->DECODE\nENTER VALUE:";
     cin>>ch;
     if(ch==1)
     {   
@@ -35,6 +35,10 @@ int main()
         a=m*10+n;
         cout<<(char)(tolower(a+9));
         }
+    }
+    else 
+    {
+        cout<<"INVALID INPUT";
     }
     cout<<"\nDO YOU WANT TO CONTINUE(1/0):";
     cin>>flag;
